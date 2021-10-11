@@ -1,9 +1,9 @@
 {
-  "name": "react-ts-vite-template",
+  "name": "reacts",
   "version": "0.1.0",
   "author": {
-    "name": "Fabien MARIE-LOUISE",
-    "url": "https://github.com/fabien-ml"
+    "name": "Algirdas Tamasauskas",
+    "url": "https://github.com/ratautas/reacts"
   },
   "scripts": {
     "dev": "vite",
@@ -52,7 +52,7 @@
     "prettier": "^2.3.2",
     "sass": "^1.38.0",
     "ts-jest": "^27.0.5",
-    "typescript": "^4.3.2",
-    "vite": "^2.4.4"
+    "typescript": "^4.4.3",
+    "vite": "^2.6.7"
   }
 }

@@ -2,7 +2,7 @@
 
 This is a [React](https://reactjs.org) + [TypeScript](https://www.typescriptlang.org/) boilerplate built with [Vite](https://vitejs.dev).
 
-It also includes [Husky](https://typicode.github.io/husky) and a pre-commit hook that runs `npm run format`.
+It also includes [Husky](https://typicode.github.io/husky) and a pre-commit hook that runs `yarn format`.
 
 ## What's inside?
 
@@ -21,7 +21,7 @@ It also includes [Husky](https://typicode.github.io/husky) and a pre-commit hook
 1. Create the project.
 
    ```bash
-   npx degit fabien-ml/react-ts-vite-template my-app
+   npx degit ratautas/reacts my-app
    ```
 
 2. Access the project directory.
@@ -39,12 +39,12 @@ It also includes [Husky](https://typicode.github.io/husky) and a pre-commit hook
 4. Install dependencies.
 
    ```bash
-   npm install
+   yarn
    ```
 
 5. Serve with hot reload at http://localhost:3000.
    ```bash
-   npm run dev
+   yarn dev
    ```
 
 ## Recommended VS Code extensions
@@ -57,28 +57,28 @@ It also includes [Husky](https://typicode.github.io/husky) and a pre-commit hook
 ### Lint commands
 
   ```bash
-  npm run lint
+  yarn lint
   ```
 
 ### Build commands
 
 ```bash
-npm run build
+yarn build
 ```
 
 ### Test commands
 
 - Run tests
   ```bash
-  npm run test
+  yarn test
   ```
 - Watch tests
   ```bash
-  npm run test:watch
+  yarn test:watch
   ```
 - Run e2e tests with cypress
   ```bash
-  npm run test:e2e
+  yarn test:e2e
   ```
 
 ## License
