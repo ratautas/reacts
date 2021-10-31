@@ -7,7 +7,7 @@ module.exports = {
 
   // Jest transformations -- this adds support for TypeScript using ts-jest
   transform: {
-    "^.+\\.tsx?$": "ts-jest",
+    // "^.+\\.tsx?$": "ts-jest", // disable transforms (see https://jestjs.io/docs/ecmascript-modules)
   },
 
   // Runs special logic, such as cleaning up components
@@ -28,5 +28,12 @@ module.exports = {
   moduleNameMapper: {
     ".+\\.(css|sass|scss|png|jpg|ttf|woff|woff2|svg)$": "identity-obj-proxy", // Return proxies objects
     "^@/(.*)$": "<rootDir>/src/$1", // To resolve typescript path aliases
+  },
+  preset: "ts-jest/presets/default-esm",
+  extensionsToTreatAsEsm: [".ts", ".tsx", ".jsx"],
+  globals: {
+    "ts-jest": {
+      useESM: true,
+    },
   },
 };
