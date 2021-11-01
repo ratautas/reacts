@@ -1,5 +1,6 @@
-import HelloWorld from "@/components/HelloWorld";
 import "@/assets/style.scss";
+
+import HelloWorld from "@/components/HelloWorld";
 
 const App = (): JSX.Element => {
   return (
